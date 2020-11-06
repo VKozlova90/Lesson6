@@ -13,10 +13,7 @@ public class Main {
         for (Vehicle Vehicle:vehicle){
 
             Vehicle.printInfo();
-            //System.out.println(Vehicle.getCost());
-
-            System.out.println();
-        }
+            }
         }
 
     }

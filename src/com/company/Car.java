@@ -11,13 +11,13 @@ public class Car extends Vehicle implements Costable{
 
     @Override
     protected void printInfo() {
-        System.out.println("Транспортное средство:" + VENILKE_TYPE + "- Количество дверей:" + doorsCount +
-                  "- Количество колёс:" +wheelCount + " " + getCost());
+        System.out.println("Транспортное средство:" + VENILKE_TYPE + " - Количество дверей:" + doorsCount +
+                  " - Количество колёс:" +wheelCount + " " + " - Стоимость:" + getCost());
     }
 
    @Override
-    public int getCost(int Cost) {
-        return Cost = 100;
+    public int getCost() {
+        return 100000;
     }
 
 }

@@ -12,8 +12,8 @@ public class Motorcycle extends Vehicle{
 
     @Override
     protected void printInfo() {
-        System.out.println("Транспортное средство:" + VENILKE_TYPE + "Количество колёс:" + wheelCount
-                + "Макс скорость:" + maxSpeed);
+        System.out.println("Транспортное средство:" + VENILKE_TYPE + " "+ " - Количество колёс:" + wheelCount
+                +" " + " - Макс скорость:" + maxSpeed);
     }
 
 }
