@@ -1,6 +1,6 @@
 package com.company;
 
-public class Car extends Vehicle{
+public class Car extends Vehicle implements Costable{
     private int doorsCount;
     private static final String VENILKE_TYPE = "Машина";
 
@@ -10,10 +10,15 @@ public class Car extends Vehicle{
     }
 
     @Override
-    protected String printInfo() {
-        return "Транспортное средство:" + VENILKE_TYPE + "- Количество дверей:" + doorsCount + "- Количество колёс:" +wheelCount;
+    protected void printInfo() {
+        System.out.println("Транспортное средство:" + VENILKE_TYPE + "- Количество дверей:" + doorsCount +
+                  "- Количество колёс:" +wheelCount + " " + getCost());
     }
 
+   @Override
+    public int getCost(int Cost) {
+        return Cost = 100;
+    }
 
 }
 
