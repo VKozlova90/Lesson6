@@ -10,9 +10,9 @@ public class Main {
         vehicle[2] = new Motorcycle(2,180);
         vehicle[3] = new Motorcycle(2,230);
 
-        for (Vehicle Vehicle:vehicle){
+        for (Vehicle vehicle1:vehicle){
 
-            Vehicle.printInfo();
+            vehicle1.printInfo();
             }
         }
 
